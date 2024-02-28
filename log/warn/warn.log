@@ -1,0 +1,18 @@
+13:25:01.489 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This "hallId" is the table primary key by @TableId annotation in Class: "com.zking.entity.Hall",So @TableField annotation will not work!
+13:25:01.491 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "hallId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Hall"
+13:25:01.556 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This "cinemaId" is the table primary key by @TableId annotation in Class: "com.zking.entity.Cinema",So @TableField annotation will not work!
+13:25:01.556 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "cinemaId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Cinema"
+13:25:01.670 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.zking.entity.MovieType".
+13:25:01.670 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.zking.entity.MovieType ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+13:25:01.694 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This "orderId" is the table primary key by @TableId annotation in Class: "com.zking.entity.Order",So @TableField annotation will not work!
+13:25:01.727 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This "scheduleId" is the table primary key by @TableId annotation in Class: "com.zking.entity.Schedule",So @TableField annotation will not work!
+13:25:01.761 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This "userId" is the table primary key by @TableId annotation in Class: "com.zking.entity.User",So @TableField annotation will not work!
+13:25:19.256 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This "hallId" is the table primary key by @TableId annotation in Class: "com.zking.entity.Hall",So @TableField annotation will not work!
+13:25:19.256 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "hallId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Hall"
+13:25:19.324 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This "cinemaId" is the table primary key by @TableId annotation in Class: "com.zking.entity.Cinema",So @TableField annotation will not work!
+13:25:19.324 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "cinemaId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Cinema"
+13:25:19.432 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.zking.entity.MovieType".
+13:25:19.433 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.zking.entity.MovieType ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+13:25:19.455 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This "orderId" is the table primary key by @TableId annotation in Class: "com.zking.entity.Order",So @TableField annotation will not work!
+13:25:19.488 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This "scheduleId" is the table primary key by @TableId annotation in Class: "com.zking.entity.Schedule",So @TableField annotation will not work!
+13:25:19.515 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This "userId" is the table primary key by @TableId annotation in Class: "com.zking.entity.User",So @TableField annotation will not work!

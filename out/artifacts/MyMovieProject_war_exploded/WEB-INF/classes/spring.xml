@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd">
+    <!-- 导入外部配置文件 -->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+    <!-- 配置数据库连接池 -->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+    <!-- mybatis-plus配置 -->
+    <bean class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="mapperLocations" value="classpath:mapper/*.xml"/>
+        <property name="configuration">
+            <bean class="com.baomidou.mybatisplus.core.MybatisConfiguration">
+                <property name="cacheEnabled" value="true"/>
+                <property name="useGeneratedKeys" value="true"/>
+                <property name="mapUnderscoreToCamelCase" value="true"/>
+            </bean>
+        </property>
+        <property name="plugins">
+            <bean class="com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor">
+                <property name="interceptors">
+                    <bean class="com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor">
+                        <property name="dbType" value="MYSQL"/>
+                    </bean>
+                </property>
+            </bean>
+        </property>
+    </bean>
+    <!-- Mapper扫描 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.zking.mapper"/>
+        <property name="annotationClass" value="org.apache.ibatis.annotations.Mapper"/>
+    </bean>
+    <!-- 事务管理配置 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <tx:advice id="advisor">
+        <tx:attributes>
+            <!-- 配置不需要事务的方法 -->
+            <tx:method name="find*"  read-only="true" propagation="SUPPORTS"/>
+            <tx:method name="select*"  read-only="true" propagation="SUPPORTS"/>
+            <tx:method name="search*"  read-only="true" propagation="SUPPORTS"/>
+            <tx:method name="get*"  read-only="true" propagation="SUPPORTS"/>
+            <tx:method name="list*"  read-only="true" propagation="SUPPORTS"/>
+            <tx:method name="count*"  read-only="true" propagation="SUPPORTS"/>
+            <tx:method name="page*"  read-only="true" propagation="SUPPORTS"/>
+            <!-- 所有其他操作需要事务支持 -->
+            <tx:method name="*"/>
+        </tx:attributes>
+    </tx:advice>
+    <aop:config>
+        <aop:pointcut id="pt" expression="execution(* com.zking.service..*.*(..))"/>
+        <aop:advisor advice-ref="advisor" pointcut-ref="pt" order="1"/>
+    </aop:config>
+    <!--图片校验验证配置：-->
+    <bean id="captchaResourceManager" class="cloud.tianai.captcha.resource.impl.DefaultImageCaptchaResourceManager">
+        <property name="resourceStore">
+            <bean class="com.zking.util.captcha.CaptchaResourceStore"/>
+        </property>
+    </bean>
+    <bean id="captchaGenerator" class="com.zking.util.captcha.MultiImageCaptchaGeneratorBean">
+        <constructor-arg name="imageCaptchaResourceManager" ref="captchaResourceManager"/>
+    </bean>
+    <bean id="captchaTrackValidator" class="cloud.tianai.captcha.validator.impl.BasicCaptchaTrackValidator"/>
+    <bean id="cacheStore" class="com.zking.util.captcha.LocalCacheStore"/>
+    <bean id="captchaProperties" class="com.zking.util.captcha.ImageCaptchaProperties">
+        <property name="expire">
+            <map>
+                <entry key="default" value="10000"/><!--默认时间10秒过期-->
+                <entry key="WORD_IMAGE_CLICK" value="30000"/><!--文字点击时间设置稍长一点-->
+            </map>
+        </property>
+        <property name="cache">
+            <bean class="com.zking.util.captcha.SliderCaptchaCacheProperties">
+                <property name="enabled" value="false"/><!--开启缓存设置-->
+                <property name="cacheSize" value="20"/><!--缓存保存个数-->
+            </bean>
+        </property>
+        <property name="initDefaultResource" value="false"/><!--不初始化默认的资源文件-->
+    </bean>
+    <bean id="imageCaptchaApplication" class="com.zking.util.captcha.DefaultImageCaptchaApplication">
+        <constructor-arg name="template" ref="captchaGenerator"/>
+        <constructor-arg name="imageCaptchaValidator" ref="captchaTrackValidator"/>
+        <constructor-arg name="cacheStore" ref="cacheStore"/>
+        <constructor-arg name="prop" ref="captchaProperties"/>
+    </bean>
+    
+    <!-- 自定义bean的配置 -->
+    <bean class="com.zking.service.impl.MovieServiceImpl"/>
+    <bean class="com.zking.service.impl.MovieTypeServiceImpl"/>
+    <bean class="com.zking.service.impl.CinemaServiceImpl"/>
+    <bean class="com.zking.service.impl.HallServiceImpl"/>
+    <bean class="com.zking.service.impl.ScheduleServiceImpl"/>
+    <bean class="com.zking.service.impl.UserServiceImpl"/>
+    <bean class="com.zking.service.impl.OrderServiceImpl"/>
+</beans>

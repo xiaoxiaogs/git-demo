@@ -1,0 +1,2 @@
+18:21:23.638 [main] ERROR c.b.m.core.MybatisConfiguration - mapper[com.zking.mapper.IMovieMapper.findAll] is ignored, because it exists, maybe from xml file
+18:21:23.641 [main] ERROR c.b.m.core.MybatisConfiguration - mapper[com.zking.mapper.IMovieMapper.SelectTypeAll] is ignored, because it exists, maybe from xml file

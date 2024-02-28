@@ -1,0 +1,93 @@
+22:25:11.071 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\idea\project\MyMovieProject\target\classes\com\zking\mapper\IUserMapper.class]
+22:25:11.087 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'IUserMapper' and 'com.zking.mapper.IUserMapper' mapperInterface
+22:25:11.091 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IUserMapper'.
+22:25:11.552 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@6c0d7c83'
+22:25:11.764 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\movieMapper.xml]'
+22:25:11.809 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\userMapper.xml]'
+22:26:32.945 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\idea\project\MyMovieProject\target\classes\com\zking\mapper\IUserMapper.class]
+22:26:32.957 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'IUserMapper' and 'com.zking.mapper.IUserMapper' mapperInterface
+22:26:32.960 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IUserMapper'.
+22:26:33.370 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@6c0d7c83'
+22:26:33.574 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\movieMapper.xml]'
+22:26:33.631 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\userMapper.xml]'
+22:28:31.671 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\idea\project\MyMovieProject\target\classes\com\zking\mapper\IUserMapper.class]
+22:28:31.686 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'IUserMapper' and 'com.zking.mapper.IUserMapper' mapperInterface
+22:28:31.691 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IUserMapper'.
+22:28:32.062 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@282cb7c7'
+22:28:32.274 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\movieMapper.xml]'
+22:28:32.318 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\userMapper.xml]'
+22:29:06.324 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\idea\project\MyMovieProject\target\classes\com\zking\mapper\IUserMapper.class]
+22:29:06.337 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'IUserMapper' and 'com.zking.mapper.IUserMapper' mapperInterface
+22:29:06.341 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IUserMapper'.
+22:29:06.706 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@63eef88a'
+22:29:06.927 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\movieMapper.xml]'
+22:29:06.962 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\userMapper.xml]'
+22:30:01.582 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\idea\project\MyMovieProject\target\classes\com\zking\mapper\IMovieMapper.class]
+22:30:01.584 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\idea\project\MyMovieProject\target\classes\com\zking\mapper\IUserMapper.class]
+22:30:01.594 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'IMovieMapper' and 'com.zking.mapper.IMovieMapper' mapperInterface
+22:30:01.597 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IMovieMapper'.
+22:30:01.597 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'IUserMapper' and 'com.zking.mapper.IUserMapper' mapperInterface
+22:30:01.598 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IUserMapper'.
+22:30:01.967 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@5a9f4771'
+22:30:02.165 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\movieMapper.xml]'
+22:30:02.207 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\userMapper.xml]'
+22:30:42.738 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\idea\project\MyMovieProject\target\classes\com\zking\mapper\IMovieMapper.class]
+22:30:42.740 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\idea\project\MyMovieProject\target\classes\com\zking\mapper\IUserMapper.class]
+22:30:42.751 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'IMovieMapper' and 'com.zking.mapper.IMovieMapper' mapperInterface
+22:30:42.754 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IMovieMapper'.
+22:30:42.754 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'IUserMapper' and 'com.zking.mapper.IUserMapper' mapperInterface
+22:30:42.754 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IUserMapper'.
+22:30:43.130 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@5a9f4771'
+22:30:43.328 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\movieMapper.xml]'
+22:30:43.367 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\userMapper.xml]'
+22:30:43.766 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:30:43.772 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d42c224]
+22:30:44.578 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4b770e40] will be managed by Spring
+22:30:44.613 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d42c224]
+22:30:44.641 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d42c224]
+22:30:44.642 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d42c224]
+22:31:30.707 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\idea\project\MyMovieProject\target\classes\com\zking\mapper\IMovieMapper.class]
+22:31:30.709 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\idea\project\MyMovieProject\target\classes\com\zking\mapper\IUserMapper.class]
+22:31:30.723 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'IMovieMapper' and 'com.zking.mapper.IMovieMapper' mapperInterface
+22:31:30.727 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IMovieMapper'.
+22:31:30.727 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'IUserMapper' and 'com.zking.mapper.IUserMapper' mapperInterface
+22:31:30.728 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IUserMapper'.
+22:31:31.213 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@5bb3d42d'
+22:31:31.434 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\movieMapper.xml]'
+22:31:31.464 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\userMapper.xml]'
+22:31:31.840 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:31:31.846 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d4c273c]
+22:31:32.495 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@34aeacd1] will be managed by Spring
+22:31:32.558 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d4c273c]
+22:31:32.559 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d4c273c]
+22:31:32.560 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d4c273c]
+22:31:55.354 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\idea\project\MyMovieProject\target\classes\com\zking\mapper\IMovieMapper.class]
+22:31:55.356 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\idea\project\MyMovieProject\target\classes\com\zking\mapper\IUserMapper.class]
+22:31:55.369 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'IMovieMapper' and 'com.zking.mapper.IMovieMapper' mapperInterface
+22:31:55.373 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IMovieMapper'.
+22:31:55.373 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'IUserMapper' and 'com.zking.mapper.IUserMapper' mapperInterface
+22:31:55.373 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IUserMapper'.
+22:31:55.748 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@6057aebb'
+22:31:55.956 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\movieMapper.xml]'
+22:31:55.997 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\userMapper.xml]'
+22:31:56.404 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:31:56.411 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e61d218]
+22:31:57.009 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@22ee2d0] will be managed by Spring
+22:31:57.063 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e61d218]
+22:31:57.064 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e61d218]
+22:31:57.064 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e61d218]
+22:33:58.772 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\idea\project\MyMovieProject\target\classes\com\zking\mapper\IMovieMapper.class]
+22:33:58.774 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\idea\project\MyMovieProject\target\classes\com\zking\mapper\IUserMapper.class]
+22:33:58.785 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'IMovieMapper' and 'com.zking.mapper.IMovieMapper' mapperInterface
+22:33:58.790 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IMovieMapper'.
+22:33:58.790 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'IUserMapper' and 'com.zking.mapper.IUserMapper' mapperInterface
+22:33:58.791 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IUserMapper'.
+22:33:59.197 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@6057aebb'
+22:33:59.396 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\movieMapper.xml]'
+22:33:59.440 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\idea\project\MyMovieProject\target\classes\mapper\userMapper.xml]'
+22:33:59.792 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:33:59.798 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e61d218]
+22:34:00.389 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@22ee2d0] will be managed by Spring
+22:34:00.445 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e61d218]
+22:34:00.446 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e61d218]
+22:34:00.446 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e61d218]

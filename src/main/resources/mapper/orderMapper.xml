@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zking.mapper.IOrderMapper">
+    <resultMap id="orderMap" type="com.zking.entity.Order">
+        <id column="order_id" property="orderId"/>
+        <result column="user_id" property="userIid"/>
+        <result column="schedule_id" property="scheduleIid"/>
+        <result column="order_position" property="orderPosition"/>
+        <result column="order_state" property="orderState"/>
+        <result column="order_price" property="orderPrice"/>
+        <result column="order_time" property="orderTime"/>
+    </resultMap>
+
+    
+    <select id="selectAllposition" resultMap="orderMap">
+        select o.order_position from orderinfo o INNER JOIN
+        schedule s ON
+        o.schedule_id=s.schedule_id
+        INNER JOIN hall h ON
+        h.hall_id=s.hall_id
+        where o.order_state=1 and o.schedule_id=#{id}
+    </select>
+</mapper>

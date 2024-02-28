@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zking.mapper.IScheduleMapper">
+    <resultMap id="schedulemap" type="com.zking.entity.Schedule">
+        <id column="schedule_id" property="scheduleId"/>
+        <result column="hall_id" property="hallId"/>
+        <result column="movie_id" property="movieId"/>
+        <result column="schedule_startTime" property="scheduleStartTime"/>
+        <result column="schedule_price" property="schedulePrice"/>
+        <result column="schedule_remain" property="scheduleRemain"/>
+        <result column="schedule_state" property="scheduleState"/>
+<!--        <result column="money" property="commentList"/>-->
+    </resultMap>
+        <select id="selectScheduleAll" parameterType="list" resultMap="schedulemap">
+            select * from `schedule` where
+            `schedule`.hall_id
+            in
+            <foreach collection="list" separator="," item="id" open="(" close=")">
+                #{id}
+            </foreach>
+            and TO_DAYS(schedule_startTime)=TO_DAYS(NOW())
+        </select>
+
+    <select id="selectByMovieIdAndCinemaId" resultMap="schedulemap">
+        select * from `schedule`
+        INNER JOIN hall
+        on hall.cinema_id = #{cinemaId}
+        where `schedule`.movie_id=#{movieId}
+        AND TO_DAYS(schedule_startTime)=TO_DAYS(NOW())
+        and `schedule`.hall_id=hall.hall_id
+    </select>
+    <select id="selectByMovieIdAndCinemaId1" resultMap="schedulemap">
+        select * from `schedule`
+        INNER JOIN hall
+        on hall.cinema_id = #{cinemaId}
+        where `schedule`.movie_id=#{movieId}
+        AND TO_DAYS(schedule_startTime)-TO_DAYS(NOW()) =1
+        and `schedule`.hall_id=hall.hall_id
+    </select>
+
+    <select id="time" >
+
+    </select>
+
+
+    <select id="selectAll" resultMap="schedulemap">
+        select * from schedule INNER JOIN hall ON
+        `schedule`.hall_id=hall.hall_id INNER JOIN movie ON
+        movie.movie_id = `schedule`.movie_id
+        LIMIT #{pageNum},10
+    </select>
+    <select id="select1" resultMap="schedulemap">
+        select * from schedule INNER JOIN hall ON
+        `schedule`.hall_id=hall.hall_id INNER JOIN movie ON
+        movie.movie_id = `schedule`.movie_id
+    </select>
+
+    <select id="selectByName" resultMap="schedulemap">
+        select * from schedule INNER JOIN hall ON
+        `schedule`.hall_id=hall.hall_id INNER JOIN movie ON
+        movie.movie_id = `schedule`.movie_id
+        where hall_name = #{hallName}
+        LIMIT #{pageNum},10
+    </select>
+    <select id="find1" resultMap="schedulemap">
+        select * from `schedule` INNER JOIN hall ON `schedule`.hall_id=hall.hall_id where hall.hall_name=#{hallName};
+    </select>
+</mapper>

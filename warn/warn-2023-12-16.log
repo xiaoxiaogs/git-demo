@@ -1,0 +1,44 @@
+04:05:29.468 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "movieId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Movie"
+04:05:29.565 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "user_id" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.User"
+04:05:30.045 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.zking.entity.MovieType".
+04:05:30.045 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.zking.entity.MovieType ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+04:08:48.971 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "movieId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Movie"
+04:08:49.070 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "user_id" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.User"
+04:08:49.497 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.zking.entity.MovieType".
+04:08:49.497 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.zking.entity.MovieType ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+05:29:21.641 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "movieId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Movie"
+05:29:21.723 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "user_id" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.User"
+05:29:22.124 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.zking.entity.MovieType".
+05:29:22.124 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.zking.entity.MovieType ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+05:29:46.438 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "movieId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Movie"
+05:29:46.526 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "user_id" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.User"
+05:29:46.918 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.zking.entity.MovieType".
+05:29:46.919 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.zking.entity.MovieType ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+05:31:05.273 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "movieId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Movie"
+05:31:05.353 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "user_id" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.User"
+05:31:05.735 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.zking.entity.MovieType".
+05:31:05.735 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.zking.entity.MovieType ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+14:13:11.149 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "movieId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Movie"
+14:13:11.215 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "user_id" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.User"
+14:13:11.596 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.zking.entity.MovieType".
+14:13:11.596 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.zking.entity.MovieType ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+14:13:48.690 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "movieId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Movie"
+14:13:48.761 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "user_id" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.User"
+14:13:49.122 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.zking.entity.MovieType".
+14:13:49.123 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.zking.entity.MovieType ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+14:31:23.071 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "movieId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Movie"
+14:31:23.142 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "user_id" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.User"
+14:31:23.554 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.zking.entity.MovieType".
+14:31:23.554 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.zking.entity.MovieType ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+14:31:46.697 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "movieId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Movie"
+14:31:46.775 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "user_id" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.User"
+14:31:47.162 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.zking.entity.MovieType".
+14:31:47.162 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.zking.entity.MovieType ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+17:34:30.290 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "movieId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Movie"
+17:34:30.385 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "user_id" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.User"
+17:34:30.782 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.zking.entity.MovieType".
+17:34:30.782 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.zking.entity.MovieType ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+17:36:58.407 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "movieId" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.Movie"
+17:36:58.482 [main] WARN  c.b.m.core.metadata.TableInfoHelper - This primary key of "user_id" is primitive !不建议如此请使用包装类 in Class: "com.zking.entity.User"
+17:36:58.899 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.zking.entity.MovieType".
+17:36:58.899 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.zking.entity.MovieType ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
